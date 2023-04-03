@@ -18,31 +18,7 @@
 
     <div id="page">
     
-        <iframe id="iframepage" name="iframepage" align="center" width="100%" src="https://orcid.org/0000-0001-7083-2038/print"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-        <script type="text/javascript" language="javascript">
-        
-            var myVar=setInterval(function(){myTimer()},1000);
-            
-            function myTimer(){
-            
-            
-            
-                var iframe= document.getElementById("iframepage"); 
-                console.log(iframe);
-                
-                var idoc = iframe.contentWindow && iframe.contentWindow.document || iframe.contentDocument;
-                
-                    var iheight = Math.max(idoc.body.scrollHeight, idoc.documentElement.scrollHeight); //取得其高
-                    iframe.style.height = iheight + "px";
-                
-
-                //var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument; 
-                //console.log(ifm);
-                //if(ifm != null && subWeb != null) { 
-                //    ifm.height = subWeb.body.scrollHeight; 
-                //} 
-            }
-        </script>
+        <iframe id="iframepage" name="iframepage" align="center" width="100%" height="2000px" src="https://orcid.org/0000-0001-7083-2038/print"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
     </div> 
 
 </body>
