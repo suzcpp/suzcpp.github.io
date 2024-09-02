@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        top.location.href = "ZhuoSu.html";
+    </script> 
+<!--     <script>
+        top.location.href = "https://orcid.org/0000-0001-7083-2038/print";
+    </script>  -->
+<!-- 
+    <object data="https://orcid.org/0000-0001-7083-2038/print"
+        width="100%"
+        type="text/html"
+        align="center"
+        frameborder="no" 
+        border="0" 
+        marginwidth="0" 
+        marginheight="0" 
+        scrolling="no">
+    </object>--> -->
+
+    <!-- <div id="page">
+    
+        <iframe id="iframepage" name="iframepage" align="center" width="100%" height="2000px" src="https://orcid.org/0000-0001-7083-2038/print"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div> 
+ -->
+    
+<!--     <div id="page">
+    
+        <iframe id="iframepage" name="iframepage" align="center" width="100%" height="500px" src="ZhuoSu.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" onLoad="startModify"></iframe>
+    </div> 
+    
+    <script type="text/javascript" language="javascript">
+        console.log(456);
+        if (window.stop) 
+            window.stop(); 
+        else 
+            document.execCommand("Stop"); 
+        var ifm= document.getElementById("iframepage"); 
+        //ifm.onload=function(){
+        
+            console.log(ifm);
+            console.log(ifm.contentDocument);
+            console.log(ifm.contentWindow.document);
+            var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument; 
+            console.log(subWeb);
+            if(ifm != null && subWeb != null) { 
+                console.log(subWeb.getElementsByClassName("container"));
+                ifm.height = subWeb.body.getElementsByClassName("container")[0].height; 
+                console.log(ifm.height);
+            } 
+        //}
+        
+        function startModify(){
+            console.log(123);
+            
+        }
+    </script> -->
+</body>
+</html>
